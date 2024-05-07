@@ -22,11 +22,9 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-gtag`,
+      resolve: `gatsby-plugin-google-adsense`,
       options: {
-        trackingIds: [
-          "ca-pub-8114099849306593",
-        ]
+        publisherId: `ca-pub-8114099849306593`
       },
     },
     `gatsby-plugin-image`,
